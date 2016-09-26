@@ -1,0 +1,67 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <style name="main_tab_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:textColor">#b5b5b5</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="xdiv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/div</item>
+    </style>
+    <style name="ydiv">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/div</item>
+    </style>
+
+
+    <style name="sp22_gray">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/t2</item>
+    </style>
+    <style name="sp22_black">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/t1</item>
+    </style>
+    <style name="sp16_black">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/t1</item>
+    </style>
+    <style name="sp16_white">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="sp16_gray">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/t2</item>
+    </style>
+    <style name="sp14_gray">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/t2</item>
+    </style>
+    <style name="sp14_black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/t1</item>
+    </style>
+    <style name="sp14_red">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="sp12_black">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/t1</item>
+    </style>
+    <style name="sp12_orange">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorPrimaryorange</item>
+    </style>
+
+</resources>

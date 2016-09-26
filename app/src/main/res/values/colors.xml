@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff5151</color>
+    <color name="colorPrimaryorange">#ffb854</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="systemBackground">#f0f0f0</color>
+    <color name="div">#f0f0f0</color>
+    <color name="title_bar_Background">#ffffff</color>
+
+
+    <color name="home_search_bar">#FFFFFF</color>
+    <color name="home_search_hint_color">#ffffff</color>
+
+    <color name="contact_tab_bc_white">#FFFFFF</color>
+    <color name="cdiv">#808080</color>
+
+
+    <color name="t1">#333333</color>
+    <color name="t2">#808080</color>
+</resources>

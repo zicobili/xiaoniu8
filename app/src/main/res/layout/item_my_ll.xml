@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/contact_tab_bc_white"
+    android:layout_marginTop="2dp"
+    android:padding="@dimen/dimen_20_dip">
+    <ImageView
+        android:id="@+id/myllic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/myindex"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/sp14_black"
+        android:paddingLeft="@dimen/dimen_30_dip"
+        android:layout_toRightOf="@id/myllic"
+        android:text="我的个人主页"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/sp14_gray"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dimen_20_dip"
+        android:drawablePadding="@dimen/dimen_20_dip"
+        android:text="106"
+        android:drawableRight="@mipmap/ic_arrow_default"/>
+</RelativeLayout>
+</LinearLayout>
