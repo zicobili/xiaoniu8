@@ -22,14 +22,45 @@
         <item name="android:background">@color/div</item>
     </style>
 
-
+    <style name="sp22_white">
+    <item name="android:textSize">22sp</item>
+    <item name="android:textColor">#ffffff</item>
+    </style>
     <style name="sp22_gray">
         <item name="android:textSize">22sp</item>
         <item name="android:textColor">@color/t2</item>
     </style>
+    <style name="sp22_orange">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/colorPrimaryorange</item>
+    </style>
+    <style name="sp22_red">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
     <style name="sp22_black">
         <item name="android:textSize">22sp</item>
         <item name="android:textColor">@color/t1</item>
+    </style>
+    <style name="sp18_black">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/t1</item>
+    </style>
+    <style name="sp18_white">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="sp18_red">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="sp18_orange">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorPrimaryorange</item>
+    </style>
+    <style name="sp18_gray">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/t2</item>
     </style>
     <style name="sp16_black">
         <item name="android:textSize">16sp</item>
@@ -39,13 +70,25 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#ffffff</item>
     </style>
+    <style name="sp16_orange">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryorange</item>
+    </style>
     <style name="sp16_gray">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/t2</item>
     </style>
+    <style name="sp16_red">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
     <style name="sp14_gray">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/t2</item>
+    </style>
+    <style name="sp14_orange">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimaryorange</item>
     </style>
     <style name="sp14_black">
         <item name="android:textSize">14sp</item>
@@ -55,13 +98,38 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/colorPrimary</item>
     </style>
+    <style name="sp14_white">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
     <style name="sp12_black">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/t1</item>
     </style>
+    <style name="sp12_white">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="sp12_gray">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/t2</item>
+    </style>
+    <style name="sp12_red">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
     <style name="sp12_orange">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/colorPrimaryorange</item>
+    </style>
+
+
+    <style name="jd_tab_bg">
+        <item name="android:background">@color/contact_tab_bc_white</item>
+        <item name="android:padding">@dimen/dimen_20_dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dimen_20_dip</item>
     </style>
 
 </resources>
