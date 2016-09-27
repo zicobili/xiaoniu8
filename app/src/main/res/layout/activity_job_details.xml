@@ -154,7 +154,10 @@
                             android:text="节假日旅游1"/>
                     </LinearLayout>
                 </LinearLayout>
-                <LinearLayout
+
+
+
+                 <LinearLayout
                     style="@style/jd_tab_bg"
                     android:orientation="vertical">
                     <RelativeLayout
@@ -212,16 +215,248 @@
                             android:text="职位描述"/>
 
                     </RelativeLayout>
-                    <View android:layout_marginTop="@dimen/dimen_30_dip" style="@style/xdiv"/>
+                    <View android:layout_marginTop="@dimen/dimen_20_dip" style="@style/xdiv"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/dimen_30_dip"
+                        android:layout_marginTop="@dimen/dimen_20_dip"
                         style="@style/sp14_gray"
                         android:text="府城中山南路凤翔横街32号"/>
 
 
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20_dip"
+                    android:background="@color/contact_tab_bc_white"
+                    android:padding="@dimen/dimen_20_dip"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_20_dip"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/ic_none_basic_info_boss_n"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/sp16_black"
+                            android:text="肖霞/老板"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/sp14_gray"
+                            android:layout_marginTop="@dimen/dimen_10_dip"
+                            android:text="琳琅蛋糕店（府城分店）"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen_10_dip"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/sp16_black"
+                                android:gravity="center_vertical"
+                                android:text="0-20人"
+                                android:drawableLeft="@mipmap/icon_people_jd"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/sp16_black"
+                                android:gravity="center_vertical"
+                                android:text="餐饮"
+                                android:drawableLeft="@mipmap/icon_label_jd"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/ic_arrow_right_gray"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/dimen_20_dip"
+                    android:background="@color/contact_tab_bc_white"
+                    android:padding="@dimen/dimen_20_dip">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/sp16_black"
+                        android:drawableLeft="@mipmap/icon_picture"
+                        android:text="照片"
+                        android:drawablePadding="@dimen/dimen_5_dip"
+                        android:gravity="center_vertical"/>
+                    <View android:layout_marginTop="@dimen/dimen_30_dip" style="@style/xdiv"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/contact_tab_bc_white"
+                    android:padding="@dimen/dimen_20_dip"
+                    android:layout_marginTop="@dimen/dimen_20_dip">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_10_dip"
+                        style="@style/sp16_black"
+                        android:gravity="center_vertical"
+                        android:drawableLeft="@mipmap/icon_positionchoose_jd"
+                        android:text="看过该职位的人还看过"/>
+                    <View style="@style/xdiv" android:layout_marginTop="@dimen/dimen_20_dip"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_20_dip"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/sp16_black"
+                                    android:gravity="center_vertical"
+                                    android:text="服务员"
+                                    android:drawableRight="@mipmap/icon_fulltime"/>
+                            </LinearLayout>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/sp16_black"
+                                android:text="3.2公里"
+                                android:background="@color/colorprimarygray"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/sp16_red"
+                            android:layout_marginTop="@dimen/dimen_20_dip"
+                            android:text="2000-3000元/月"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/sp16_black"
+                            android:layout_marginTop="@dimen/dimen_20_dip"
+                            android:text="良品黑糖"/>
+
+                    </LinearLayout>
+                    <View style="@style/xdiv" android:layout_marginTop="@dimen/dimen_20_dip"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_20_dip"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/sp16_black"
+                                    android:gravity="center_vertical"
+                                    android:text="服务员"
+                                    android:drawableRight="@mipmap/icon_fulltime"/>
+                            </LinearLayout>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/sp16_black"
+                                android:text="3.2公里"
+                                android:background="@color/colorprimarygray"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/sp16_red"
+                            android:layout_marginTop="@dimen/dimen_20_dip"
+                            android:text="2000-3000元/月"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/sp16_black"
+                            android:layout_marginTop="@dimen/dimen_20_dip"
+                            android:text="良品黑糖"/>
+
+                    </LinearLayout>
+                    <View style="@style/xdiv" android:layout_marginTop="@dimen/dimen_20_dip"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_20_dip"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/sp16_black"
+                                    android:gravity="center_vertical"
+                                    android:text="服务员"
+                                    android:drawableRight="@mipmap/icon_fulltime"/>
+                            </LinearLayout>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/sp16_black"
+                                android:text="3.2公里"
+                                android:background="@color/colorprimarygray"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/sp16_red"
+                            android:layout_marginTop="@dimen/dimen_20_dip"
+                            android:text="2000-3000元/月"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/sp16_black"
+                            android:layout_marginTop="@dimen/dimen_20_dip"
+                            android:text="良品黑糖"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 

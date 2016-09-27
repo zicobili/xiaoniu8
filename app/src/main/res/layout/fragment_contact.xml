@@ -77,150 +77,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:background="@color/contact_tab_bc_white">
-            <ImageView
-                android:layout_width="@dimen/dimen_100_dip"
-                android:layout_height="@dimen/dimen_100_dip"
-                android:src="@mipmap/ic_none_basic_info_boss_n"
-                android:layout_marginTop="@dimen/dimen_20_dip"
-                android:layout_marginLeft="@dimen/dimen_20_dip"
-                android:layout_marginBottom="@dimen/dimen_20_dip"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="@dimen/dimen_10_dip"
-                android:orientation="vertical"
-                android:gravity="center_vertical">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:orientation="horizontal">
-                        <TextView
-                            android:id="@+id/lab_l"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textSize="10sp"
-                            android:padding="2dp"
-                            android:textColor="@color/colorPrimary"
-                            android:background="@drawable/contact_item_label_l"
-                            android:text="店"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textSize="10sp"
-                            android:padding="2dp"
-                            android:textColor="#ffffff"
-                            android:background="@drawable/contact_item_label_r"
-                            android:text="楚香阁"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            style="@style/sp16_black"
-                            android:text="\t肖霞"/>
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        style="@style/sp16_gray"
-                        android:layout_alignParentRight="true"
-                        android:text="09-22\t22:02"/>
-
-                </RelativeLayout>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    style="@style/sp14_gray"
-                    android:layout_marginTop="@dimen/dimen_10_dip"
-                    android:text="暂时没有新的通知"/>
-            </LinearLayout>
-        </LinearLayout>
         <View
             android:layout_width="wrap_content"
             android:layout_height="1px"
             android:layout_marginLeft="@dimen/dimen_120_dip"
             android:background="@color/cdiv"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:background="@color/contact_tab_bc_white">
-            <ImageView
-                android:layout_width="@dimen/dimen_100_dip"
-                android:layout_height="@dimen/dimen_100_dip"
-                android:src="@mipmap/ic_none_basic_info_boss_n"
-                android:layout_marginTop="@dimen/dimen_20_dip"
-                android:layout_marginLeft="@dimen/dimen_20_dip"
-                android:layout_marginBottom="@dimen/dimen_20_dip"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="@dimen/dimen_10_dip"
-                android:orientation="vertical"
-                android:gravity="center_vertical">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:orientation="horizontal">
-                        <TextView
-                            android:id="@+id/lab_l"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textSize="10sp"
-                            android:padding="2dp"
-                            android:textColor="@color/colorPrimary"
-                            android:background="@drawable/contact_item_label_l"
-                            android:text="店"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textSize="10sp"
-                            android:padding="2dp"
-                            android:textColor="#ffffff"
-                            android:background="@drawable/contact_item_label_r"
-                            android:text="楚香阁"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            style="@style/sp16_black"
-                            android:text="\t肖霞"/>
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        style="@style/sp16_gray"
-                        android:layout_alignParentRight="true"
-                        android:text="09-22\t22:02"/>
-
-                </RelativeLayout>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    style="@style/sp14_gray"
-                    android:layout_marginTop="@dimen/dimen_10_dip"
-                    android:text="暂时没有新的通知"/>
-            </LinearLayout>
-        </LinearLayout>
-        <View
-            android:layout_width="wrap_content"
-            android:layout_height="1px"
-            android:layout_marginLeft="@dimen/dimen_120_dip"
-            android:background="@color/cdiv"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -288,11 +150,6 @@
                     android:text="暂时没有新的通知"/>
             </LinearLayout>
         </LinearLayout>
-        <View
-            android:layout_width="wrap_content"
-            android:layout_height="1px"
-            android:layout_marginLeft="@dimen/dimen_120_dip"
-            android:background="@color/cdiv"/>
     </LinearLayout>
 
 </LinearLayout>
