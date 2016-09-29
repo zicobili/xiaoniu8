@@ -124,9 +124,12 @@
     </style>
 
 
-    <style name="jd_tab_bg">
+    <style name="tab_bg_default">
         <item name="android:background">@color/contact_tab_bc_white</item>
-        <item name="android:padding">@dimen/dimen_20_dip</item>
+        <item name="android:paddingTop">@dimen/dimen_30_dip</item>
+        <item name="android:paddingBottom">@dimen/dimen_30_dip</item>
+        <item name="android:paddingLeft">@dimen/dimen_30_dip</item>
+        <item name="android:paddingRight">@dimen/dimen_30_dip</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/dimen_20_dip</item>
