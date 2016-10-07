@@ -13,29 +13,36 @@
         android:background="#888888">
 
     </FrameLayout>
-    <RadioGroup
-        android:id="@+id/rbg_main_content"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ffffff"
         android:layout_alignParentBottom="true"
-        android:orientation="horizontal">
-        <RadioButton
-            android:id="@+id/rb_home"
-            style="@style/main_tab_btn"
-            android:text="主页"
-            android:drawableTop="@drawable/ic_main_tab_home"/>
-        <RadioButton
-            android:id="@+id/rb_contact"
-            style="@style/main_tab_btn"
-            android:text="消息"
-            android:drawableTop="@drawable/ic_main_tab_contacts"/>
-        <RadioButton
-            android:id="@+id/rb_my"
-            style="@style/main_tab_btn"
-            android:text="我的"
-            android:drawableTop="@drawable/ic_main_tab_my"/>
-    </RadioGroup>
+        android:orientation="vertical">
+        <View style="@style/xdiv"/>
+        <RadioGroup
+            android:id="@+id/rbg_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rb_home"
+                style="@style/main_tab_btn"
+                android:text="主页"
+                android:drawableTop="@drawable/ic_main_tab_home"/>
+            <RadioButton
+                android:id="@+id/rb_contact"
+                style="@style/main_tab_btn"
+                android:text="消息"
+                android:drawableTop="@drawable/ic_main_tab_contacts"/>
+            <RadioButton
+                android:id="@+id/rb_my"
+                style="@style/main_tab_btn"
+                android:text="我的"
+                android:drawableTop="@drawable/ic_main_tab_my"/>
+        </RadioGroup>
+
+    </LinearLayout>
 
 
 

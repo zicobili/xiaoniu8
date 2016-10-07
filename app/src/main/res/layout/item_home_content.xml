@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
+              android:descendantFocusability="blocksDescendants"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
     android:background="@color/systemBackground">
@@ -20,7 +21,7 @@
             android:background="@color/title_bar_Background">
 
             <TextView
-                android:id="@+id/ctitle"
+                android:id="@+id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -29,13 +30,14 @@
                 android:text="服务员"
                 android:textColor="#333333"/>
             <ImageView
+                android:id="@+id/iv_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginTop="@dimen/dimen_8_dip"
                 android:layout_marginLeft="@dimen/dimen_8_dip"
                 android:background="@mipmap/icon_fulltime"
-                android:layout_toRightOf="@id/ctitle"/>
+                android:layout_toRightOf="@id/tv_title"/>
 
 
 
@@ -57,7 +59,7 @@
             android:layout_height="wrap_content"
             android:background="@color/title_bar_Background">
             <TextView
-                android:id="@+id/cmoney"
+                android:id="@+id/tv_salary"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dimen_8_dip"
@@ -81,7 +83,7 @@
             android:layout_height="wrap_content"
             android:background="@color/title_bar_Background">
             <TextView
-                android:id="@+id/ccompany"
+                android:id="@+id/tv_storename"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dimen_8_dip"
@@ -116,19 +118,21 @@
                 android:layout_centerVertical="true"
                 android:background="@mipmap/icon_picture"/>
             <TextView
-                android:id="@+id/cuser"
+                android:id="@+id/tv_bossname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
-                android:text="肖霞|凤翔东路"
+                android:text="肖霞|店长"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@+id/chead"
                 android:textColor="#333333"/>
             <Button
+                android:id="@+id/btn_contact"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/dimen_48_dip"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_alignParentRight="true"
+                android:focusable="false"
                 android:text="聊工作"
                 android:background="@drawable/item_home_content_chat"
                 android:textColor="#ffffff"

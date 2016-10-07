@@ -32,6 +32,7 @@
             android:drawableRight="@mipmap/icon_filter_down"/>
     </RelativeLayout>
     <ScrollView
+        android:id="@+id/scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
@@ -83,140 +84,12 @@
                 android:background="#cccccc"
                 ></LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/dimen_15_dip"
-                android:paddingBottom="@dimen/dimen_15_dip"
-                android:paddingLeft="@dimen/dimen_10_dip"
-                android:paddingRight="@dimen/dimen_10_dip"
-                android:layout_marginTop="@dimen/dimen_15_dip"
-                android:background="@color/title_bar_Background"
-                android:orientation="vertical">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/title_bar_Background">
-
-                    <TextView
-                        android:id="@+id/ctitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:textSize="16sp"
-                        android:layout_marginTop="@dimen/dimen_8_dip"
-                        android:text="服务员"
-                        android:textColor="#333333"/>
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_marginTop="@dimen/dimen_8_dip"
-                        android:layout_marginLeft="@dimen/dimen_8_dip"
-                        android:background="@mipmap/icon_fulltime"
-                        android:layout_toRightOf="@id/ctitle"/>
+           <com.example.administrator.xiaoniu.Mylistview
+               android:id="@+id/list"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"></com.example.administrator.xiaoniu.Mylistview>
 
 
-
-                    <TextView
-                        android:id="@+id/cdistance"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="14sp"
-                        android:textColor="#363636"
-                        android:text="14公里"
-                        android:background="#f0f0f0"
-                        android:layout_alignParentRight="true"/>
-
-
-
-                </RelativeLayout>
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/title_bar_Background">
-                    <TextView
-                        android:id="@+id/cmoney"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/dimen_8_dip"
-                        android:textSize="14sp"
-                        android:textColor="#808080"
-                        android:text="1500-2000元/月"/>
-
-                    <TextView
-                        android:id="@+id/csite"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/dimen_10_dip"
-                        android:textSize="14sp"
-                        android:textColor="#363636"
-                        android:text="琼山区"
-                        android:background="#f0f0f0"
-                        android:layout_alignParentRight="true"/>
-                </RelativeLayout>
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/title_bar_Background">
-                    <TextView
-                        android:id="@+id/ccompany"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/dimen_8_dip"
-                        android:textSize="12sp"
-                        android:textColor="#333333"
-                        android:text="楚香园"/>
-                </RelativeLayout>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/systemBackground"/>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/dimen_96_dip"
-                    android:gravity="center_horizontal"
-                    android:background="#ffffff">
-
-                </LinearLayout>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/systemBackground"/>
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/dimen_10_dip">
-                    <ImageView
-                        android:id="@+id/chead"
-                        android:layout_width="@dimen/dimen_50_dip"
-                        android:layout_height="@dimen/dimen_50_dip"
-                        android:layout_alignParentLeft="true"
-                        android:layout_centerVertical="true"
-                        android:background="@mipmap/icon_picture"/>
-                    <TextView
-                        android:id="@+id/cuser"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="14sp"
-                        android:text="肖霞|凤翔东路"
-                        android:layout_centerVertical="true"
-                        android:layout_toRightOf="@+id/chead"
-                        android:textColor="#333333"/>
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/dimen_48_dip"
-                        style="?android:attr/borderlessButtonStyle"
-                        android:layout_alignParentRight="true"
-                        android:text="聊工作"
-                        android:background="@drawable/item_home_content_chat"
-                        android:textColor="#ffffff"
-                        android:textSize="14sp"/>
-                </RelativeLayout>
-
-
-
-            </LinearLayout>
 
 
 
